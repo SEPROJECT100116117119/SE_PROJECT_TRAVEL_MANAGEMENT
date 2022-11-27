@@ -5,12 +5,15 @@
     require 'header.php';
   ?>
 <body>
+	<!Side navbar>
 	<?php require 'navbar.php';?>
-  <div id="mySidenav" class="sidenav">
-  <a href="dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-	<a href="cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
-  <a href="bookTicket.php" id="view">Book Tickets<span class="glyphicon glyphicon-send"></span></a>
-  <a href="profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
+  		<div id="mySidenav" class="sidenav">
+  		<a href="dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
+		<a href="cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
+  		<a href="bookTicket.php" id="view">Book Tickets<span class="glyphicon glyphicon-send"></span></a>
+  		<a href="profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
+
+<!Similar to the bookTicket just you can't book>
 </div>
   <div class="container">
     <h2>Schedule For Buses</h2>
